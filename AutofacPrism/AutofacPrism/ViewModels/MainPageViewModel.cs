@@ -7,6 +7,10 @@ namespace AutofacPrism.ViewModels
     {
         private string title;
 
+        public MainPageViewModel(IFooService service)
+        {
+        }
+
         public string Title
         {
             get
